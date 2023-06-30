@@ -1,0 +1,198 @@
+.column {
+  width: 450px;
+  min-height: 197px;
+
+  .header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 12px;
+    height: 44px;
+    position: sticky;
+    background-color: #EBECF0;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .wrapper {
+    background-color: #EBECF0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    .body {
+      padding: 0 12px 0 12px;
+
+      .inputCard {
+        border-radius: 5px;
+        background-color: #ffffff;
+        min-height: 35px;
+        padding: 7px 8px;
+        cursor: pointer;
+        border: none;
+
+        &:not(:first-of-type) {
+          margin-top: 15px;
+        }
+
+        input {
+          border: none;
+          outline: none;
+        }
+      }
+
+      .selectCard {
+        border-radius: 5px;
+        background-color: #ffffff;
+        min-height: 35px;
+        padding: 7px 8px;
+        cursor: pointer;
+        border: none;
+        display: block;
+
+        &:not(:first-of-type) {
+          margin-top: 15px;
+        }
+
+        select {
+          border: none;
+          outline: none;
+          width: 100%;
+        }
+      }
+    }
+
+    .footer {
+      padding: 17px 14px 8px 14px;
+
+      .buttonAddCard {
+        border: none;
+        color: #5E6C84;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        cursor: pointer;
+        width: 102px;
+        height: 29px;
+        border-radius: 5px;
+        background-color: #0079BF;
+        color: #FFFFFF;
+      }
+
+      .buttonAddCard:hover {
+        background-color: #2592d1;
+        color: #233d4d;
+      }
+
+      .buttonSubmit {
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        background-color: #0079BF;
+        width: 102px;
+        height: 29px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+    }
+
+
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 1840px) {
+  .column {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1660px) and (max-width: 1840px) {
+  .column {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1460px) and (max-width: 1659px) {
+  .column {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1260px) and (max-width: 1459px) {
+  .column {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1259px) {
+  .column {
+    width: 282px;
+  }
+}
+
+@media (min-width: 1060px) and (max-width: 1179px) {
+  .column {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1059px) {
+  .column {
+    width: 230px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .column {
+    width: 600px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 639px) {
+  .column {
+    width: 550px;
+  }
+}
+
+@media (min-width: 490px) and (max-width: 579px) {
+  .column {
+    width: 450px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 489px) {
+  .column {
+    width: 400px;
+  }
+}
+
+@media (min-width: 394px) and (max-width: 439px) {
+  .column {
+    width: 350px;
+  }
+}
+
+@media (min-width: 339px) and (max-width: 393px) {
+  .column {
+    width: 300px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 338px) {
+  .column {
+    width: 282px;
+  }
+}

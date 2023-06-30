@@ -1,0 +1,25 @@
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 22px;
+  background-color: #0067A3;
+  flex-shrink: 0;
+
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 338px) {
+  .header h1 {
+    display: none;
+  }
+}

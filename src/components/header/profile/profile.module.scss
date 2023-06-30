@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  .chevron {
+    &.up>svg {
+      transform: scaleY(-1);
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 60px;
+    right: 16px;
+    min-width: 120px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    padding: 8px 12px;
+    line-height: 25px;
+    z-index: 1;
+
+    .rectangle {
+      position: fixed;
+      z-index: 1;
+      top: 52px;
+      right: 58px;
+    }
+
+    .menu_item:hover {
+      cursor: pointer;
+      color: blue;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 338px) {
+  .profile {
+    margin-left: 232px;
+  }
+}
